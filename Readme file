@@ -45,10 +45,10 @@ This web app is fully responsive and adapts to:
 
 ## 🚀 How to Use
 
-1. Clone or download the repository
-2. Open `index.html` in any browser
-3. Enter AAT and Mid marks for each subject
-4. Click **Calculate** to view internal marks instantly
+1. Open [`index.html`](https://jillellamudi-navaneeth.github.io/internal/) in any browser
+2. Enter AAT and Mid marks
+3. Click **Calculate** to view internal marks instantly
+4. View the internal marks instantly
 
 ## 📂 Project Structure
 
