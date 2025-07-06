@@ -1,0 +1,59 @@
+# 📘 Internal Marks Calculator – College Assessment Tool
+
+This project is a web-based **Internal Marks Calculator** tailored to the academic evaluation system used in our college. It helps compute internal marks for each subject based on two AATs (Assignment/Assessment Tests) and two Mid exams.
+
+## 🎯 Purpose
+
+To automate and simplify the internal marks calculation process for students and faculty, ensuring accurate and consistent evaluation based on institutional rules.
+
+## 🧮 Calculation Logic
+
+Each subject includes:
+
+- **2 AATs** (out of 10 marks each)
+- **2 Mid exams** (out of 35 marks each)
+
+The internal marks are calculated as follows:
+
+| Component       | Weightage | Rule                                                                 |
+|----------------|-----------|----------------------------------------------------------------------|
+| AATs            | 10 marks  | Average of the two AAT scores                                        |
+| Mid Exams       | 20 marks  | Higher mid score → 15 marks<br>Lower mid score → 5 marks             |
+| **Total**       | **30 marks** | Sum of AAT average + 15 (higher mid) + 5 (lower mid)               |
+
+### 🧠 Example
+
+If a student scores:
+- AAT1 = 8, AAT2 = 9 → AAT Avg = 8.5
+- Mid1 = 30, Mid2 = 25 → Higher = 30 → 15 marks, Lower = 25 → 5 marks
+
+**Internal Marks = 8.5 + 15 + 5 = 28.5**
+
+## 💻 Technologies Used
+
+- HTML5
+- JavaScript (Vanilla)
+
+## 🚀 How to Use
+
+1. Clone or download the repository
+2. Open `index.html` in any browser
+3. Enter AAT and Mid marks for each subject
+4. Click **Calculate** to view internal marks instantly
+
+## 📂 Project Structure
+
+
+## 📌 Use Cases
+
+- Students verifying internal scores
+- Faculty calculating marks for multiple subjects
+- Academic coordinators preparing evaluation reports
+
+## 📄 License
+
+This project is open-source and free to use.
+
+---
+
+
